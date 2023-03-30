@@ -2,10 +2,10 @@ Code Refactor Starter Code.
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+
 
 This assignment was to showcase how to push and pull your code to Github, how to clone your repository to your computer from Github, how to commit and push your code, and how to publish your website. The problem I solved was to clean and refactor the code to make sure things are the same while cleaning the code.
-- What did you learn? I learned how to read code and make sure things work accoridngly. I also learned refactoring code is a great way to make sure you know line by line and take out / clean up redundant code. 
+I learned how to read code and make sure things work accoridngly. I also learned refactoring code is a great way to make sure you know line by line and take out / clean up redundant code. 
 
 ## Usage
 
