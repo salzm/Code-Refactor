@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon Website Code Refractoring</title>
 </head>
 
 <body>
     <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <!--    This code does not need to have a class inside a header. You can just use a header
+
+            <h1>Hori<span class="seo">seo</span>n</h1>    
+        -->
+        <h1> Horiseon </h1>
         <div>
             <ul>
                 <li>
@@ -26,7 +30,10 @@
     </div>
     <div class="hero"></div>
     <div class="content">
-        <div class="search-engine-optimization">
+
+        <!-- the div class needed an id, so I added div class id and kept the class. This now when you click on the text seach engine optimization it will go to the section! -->
+
+        <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -71,12 +78,14 @@
             </p>
         </div>
     </div>
+    
+    <!--  Do not need this part at the bottom. 
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </div> -->
 </body>
 
 </html>
